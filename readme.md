@@ -1,5 +1,5 @@
 # Basic Create, Read, Update, Delete
-Oleh: Sandal
+Oleh: Sandal <br>
 Tech stack:
 - ReactJS (Axios, skeletoncss)
 - Node (Express, mysql, cors, body-parser, NPM, nodemon)
