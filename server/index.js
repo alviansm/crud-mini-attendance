@@ -4,6 +4,8 @@ const bodyParser = require("body-parser");
 const app = express();
 const mysql = require('mysql2');
 
+const PORT = 3001;
+
 function randomNumber(digit) {
     let number = Math.floor(Math.random() * digit);
 
@@ -87,6 +89,6 @@ app.put("/api/update", (req, res) => {
 //     })
 // });
 
-app.listen(3001, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log("Running on port 3001.");
 });
